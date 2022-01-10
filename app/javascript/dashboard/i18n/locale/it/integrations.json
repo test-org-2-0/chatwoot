@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Non ci sono webhook configurati per questo account.",
         "TITLE": "Gestisci webhook",
-        "TABLE_HEADER": [
-          "Endpoint Webhook",
-          "azioni"
-        ]
+        "TABLE_HEADER": ["Endpoint Webhook", "azioni"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Modifica",

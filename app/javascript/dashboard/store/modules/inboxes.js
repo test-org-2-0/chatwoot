@@ -15,7 +15,7 @@ const buildInboxData = inboxParams => {
   const { selectedFeatureFlags = [], ...channelParams } = channel;
   if (selectedFeatureFlags.length) {
     selectedFeatureFlags.forEach(featureFlag => {
-      formData.append(`channel[selected_feature_flags][]`, featureFlag);
+      formData.append('channel[selected_feature_flags][]', featureFlag);
     });
   } else {
     formData.append('channel[selected_feature_flags][]', '');
@@ -44,10 +44,8 @@ export const getters = {
   },
   getNewConversationInboxes($state) {
     return $state.records.filter(inbox => {
-      const {
-        channel_type: channelType,
-        phone_number: phoneNumber = '',
-      } = inbox;
+      const { channel_type: channelType, phone_number: phoneNumber = '' } =
+        inbox;
 
       const isEmailChannel = channelType === INBOX_TYPES.EMAIL;
       const isSmsChannel =

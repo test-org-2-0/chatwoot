@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Disponibilité",
-        "STATUSES_LIST": [
-          "En ligne",
-          "Occupé(e)",
-          "Hors-ligne"
-        ]
+        "STATUSES_LIST": ["En ligne", "Occupé(e)", "Hors-ligne"]
       },
       "EMAIL": {
         "LABEL": "Votre adresse de courriel",

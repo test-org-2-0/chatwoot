@@ -75,9 +75,8 @@ export const newMessageNotification = data => {
     window.WOOT.$store.getters.getConversationById(incomingConvId) || {};
   const assigneeId = getAssigneeFromNotification(currentConv);
   const isDocHidden = document.hidden;
-  const {
-    enable_audio_alerts: enableAudioAlerts = false,
-  } = window.WOOT.$store.getters.getUISettings;
+  const { enable_audio_alerts: enableAudioAlerts = false } =
+    window.WOOT.$store.getters.getUISettings;
   const playAudio = shouldPlayAudio(
     data,
     currentConvId,

@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Availability",
-        "STATUSES_LIST": [
-          "Online",
-          "Busy",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Busy", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Uw e-mailadres",

@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Dostupnost",
-        "STATUSES_LIST": [
-          "Online",
-          "Zaneprázdněn",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Zaneprázdněn", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Vaše e-mailová adresa",

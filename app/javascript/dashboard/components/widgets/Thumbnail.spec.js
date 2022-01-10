@@ -2,8 +2,8 @@ import { mount } from '@vue/test-utils';
 import Avatar from './Avatar.vue';
 import Thumbnail from './Thumbnail.vue';
 
-describe(`when there are NO errors loading the thumbnail`, () => {
-  it(`should render the agent thumbnail`, () => {
+describe('when there are NO errors loading the thumbnail', () => {
+  it('should render the agent thumbnail', () => {
     const wrapper = mount(Thumbnail, {
       propsData: {
         src: 'https://some_valid_url.com',
@@ -20,8 +20,8 @@ describe(`when there are NO errors loading the thumbnail`, () => {
   });
 });
 
-describe(`when there ARE errors loading the thumbnail`, () => {
-  it(`should render the agent avatar`, () => {
+describe('when there ARE errors loading the thumbnail', () => {
+  it('should render the agent avatar', () => {
     const wrapper = mount(Thumbnail, {
       propsData: {
         src: 'https://some_invalid_url.com',
@@ -38,8 +38,8 @@ describe(`when there ARE errors loading the thumbnail`, () => {
   });
 });
 
-describe(`when Avatar shows`, () => {
-  it(`initials shold correspond to username`, () => {
+describe('when Avatar shows', () => {
+  it('initials shold correspond to username', () => {
     const wrapper = mount(Avatar, {
       propsData: {
         username: 'Angie Rojas',

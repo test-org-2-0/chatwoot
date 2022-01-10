@@ -27,8 +27,9 @@ class MessageFormatter {
         if (url.match(mentionRegex)) {
           return `<span class="prosemirror-mention-node">${text}</span>`;
         }
-        return `<a rel="noreferrer noopener nofollow" href="${url}" class="link" title="${title ||
-          ''}" target="_blank">${text}</a>`;
+        return `<a rel="noreferrer noopener nofollow" href="${url}" class="link" title="${
+          title || ''
+        }" target="_blank">${text}</a>`;
       },
     };
     this.marked.use({ renderer });

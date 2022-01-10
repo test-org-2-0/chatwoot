@@ -12,10 +12,7 @@
       "LIST": {
         "404": "このアカウントに紐付けされたWebフックはありません。",
         "TITLE": "Webhookの管理",
-        "TABLE_HEADER": [
-          "Webhookエンドポイント",
-          "操作"
-        ]
+        "TABLE_HEADER": ["Webhookエンドポイント", "操作"]
       },
       "EDIT": {
         "BUTTON_TEXT": "編集",

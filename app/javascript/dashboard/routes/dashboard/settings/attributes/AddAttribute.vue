@@ -66,8 +66,8 @@
             <woot-submit-button
               :disabled="
                 $v.displayName.$invalid ||
-                  $v.description.$invalid ||
-                  uiFlags.isCreating
+                $v.description.$invalid ||
+                uiFlags.isCreating
               "
               :button-text="$t('ATTRIBUTES_MGMT.ADD.SUBMIT')"
             />

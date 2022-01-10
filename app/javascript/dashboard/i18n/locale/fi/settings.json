@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Saatavuus",
-        "STATUSES_LIST": [
-          "Paikalla",
-          "Kiireinen",
-          "Poissa"
-        ]
+        "STATUSES_LIST": ["Paikalla", "Kiireinen", "Poissa"]
       },
       "EMAIL": {
         "LABEL": "Sinun sähköpostiosoitteesi",

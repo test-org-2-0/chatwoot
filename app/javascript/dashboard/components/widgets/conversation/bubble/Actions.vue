@@ -104,8 +104,9 @@ export default {
         return '';
       }
       const { screenName, sourceId } = this;
-      return `https://twitter.com/${screenName ||
-        this.inbox.name}/status/${sourceId}`;
+      return `https://twitter.com/${
+        screenName || this.inbox.name
+      }/status/${sourceId}`;
     },
     showSentIndicator() {
       return this.isOutgoing && this.sourceId && this.isAnEmailChannel;

@@ -25,13 +25,8 @@ export default {
       return this.channelConfig.outOfOfficeMessage;
     },
     isInBetweenTheWorkingHours() {
-      const {
-        openHour,
-        openMinute,
-        closeHour,
-        closeMinute,
-        closedAllDay,
-      } = this.currentDayAvailability;
+      const { openHour, openMinute, closeHour, closeMinute, closedAllDay } =
+        this.currentDayAvailability;
       const { utcOffset } = this.channelConfig;
 
       if (closedAllDay) return false;

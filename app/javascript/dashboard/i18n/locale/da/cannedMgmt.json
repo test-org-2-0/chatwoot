@@ -9,11 +9,7 @@
       "404": "Der er ingen tilgængelige standardsvar på denne konto.",
       "TITLE": "Administrer standardsvar",
       "DESC": "Standardsvar er foruddefinerede svarskabeloner, som kan bruges til hurtigt at sende svar på tickets.",
-      "TABLE_HEADER": [
-        "Short Code",
-        "Indhold",
-        "Handlinger"
-      ]
+      "TABLE_HEADER": ["Short Code", "Indhold", "Handlinger"]
     },
     "ADD": {
       "TITLE": "Tilføj Standardsvar",

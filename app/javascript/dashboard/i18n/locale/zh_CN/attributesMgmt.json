@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "姓名：",
-        "描述信息",
-        "类型",
-        "关键字"
-      ],
+      "TABLE_HEADER": ["姓名：", "描述信息", "类型", "关键字"],
       "BUTTONS": {
         "EDIT": "编辑",
         "DELETE": "删除"

@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "ชื่อ",
-        "Description",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["ชื่อ", "Description", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "เเก้ไข",
         "DELETE": "ลบ"

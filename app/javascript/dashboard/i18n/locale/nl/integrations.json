@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Er zijn geen webhooks geconfigureerd voor dit account.",
         "TITLE": "Webhooks beheren",
-        "TABLE_HEADER": [
-          "Webhook eindpunt",
-          "acties"
-        ]
+        "TABLE_HEADER": ["Webhook eindpunt", "acties"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Bewerken",

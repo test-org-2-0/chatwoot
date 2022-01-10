@@ -9,11 +9,7 @@
       "404": "Der er ingen tilgængelige etiketter på denne konto.",
       "TITLE": "Administrer etiketter",
       "DESC": "Etiketter lader dig gruppere samtalerne sammen.",
-      "TABLE_HEADER": [
-        "Navn",
-        "Beskrivelse",
-        "Farve"
-      ]
+      "TABLE_HEADER": ["Navn", "Beskrivelse", "Farve"]
     },
     "FORM": {
       "NAME": {

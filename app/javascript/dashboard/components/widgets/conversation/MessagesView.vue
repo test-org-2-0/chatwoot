@@ -287,9 +287,8 @@ export default {
       let relevantMessages = [];
       if (this.getUnreadCount > 0) {
         // capturing only the unread messages
-        relevantMessages = this.conversationPanel.querySelectorAll(
-          '.message--unread'
-        );
+        relevantMessages =
+          this.conversationPanel.querySelectorAll('.message--unread');
       } else {
         // capturing last message from the messages list
         relevantMessages = Array.from(

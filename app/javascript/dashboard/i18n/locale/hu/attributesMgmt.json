@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Név",
-        "Leírás",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Név", "Leírás", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Szerkesztés",
         "DELETE": "Törlés"

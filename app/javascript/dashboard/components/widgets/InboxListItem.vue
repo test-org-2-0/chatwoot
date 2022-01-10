@@ -5,9 +5,7 @@
       <h4 class="item--name">
         {{ inbox.label }}
       </h4>
-      <p class="item--sub">
-        Facebook
-      </p>
+      <p class="item--sub">Facebook</p>
     </div>
     <!-- <span class="ion-chevron-right arrow"></span> -->
   </div>

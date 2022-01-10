@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "유용성",
-        "STATUSES_LIST": [
-          "온라인",
-          "바쁨",
-          "오프라인"
-        ]
+        "STATUSES_LIST": ["온라인", "바쁨", "오프라인"]
       },
       "EMAIL": {
         "LABEL": "이메일 주소",

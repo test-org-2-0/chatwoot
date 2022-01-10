@@ -12,10 +12,7 @@
       "LIST": {
         "404": "No hi ha cap webhooks configurat per a aquest compte.",
         "TITLE": "Gestiona els webhooks",
-        "TABLE_HEADER": [
-          "Punt final del webhook",
-          "Accions"
-        ]
+        "TABLE_HEADER": ["Punt final del webhook", "Accions"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Edita",

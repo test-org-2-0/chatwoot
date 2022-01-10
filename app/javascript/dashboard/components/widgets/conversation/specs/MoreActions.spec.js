@@ -21,7 +21,7 @@ const i18nConfig = new VueI18n({
 });
 
 describe('MoveActions', () => {
-  let currentChat = { id: 8, muted: false };
+  const currentChat = { id: 8, muted: false };
   let state = null;
   let muteConversation = null;
   let unmuteConversation = null;

@@ -9,11 +9,7 @@
       "404": "No hi ha etiquetes disponibles en aquest compte.",
       "TITLE": "Gestiona les etiquetes",
       "DESC": "Les etiquetes et permeten agrupar les converses.",
-      "TABLE_HEADER": [
-        "Nom",
-        "Descripció",
-        "Color"
-      ]
+      "TABLE_HEADER": ["Nom", "Descripció", "Color"]
     },
     "FORM": {
       "NAME": {

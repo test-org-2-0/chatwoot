@@ -9,11 +9,7 @@
       "404": "Nincs megfelelő mentett válasz ebben a fiókban.",
       "TITLE": "Mentett válaszok kezelése",
       "DESC": "A mentett válaszok előre meghatározott sablonok, melyeket gyors válaszok kiküldésére használhatsz.",
-      "TABLE_HEADER": [
-        "Rövidkód",
-        "Tartalom",
-        "Műveletek"
-      ]
+      "TABLE_HEADER": ["Rövidkód", "Tartalom", "Műveletek"]
     },
     "ADD": {
       "TITLE": "Mentett válasz hozzáadása",

@@ -31,9 +31,9 @@ jest.mock('../constants', () => {
 
 window.roleWiseRoutes = {};
 
-describe(`behavior`, () => {
-  describe(`when route is not protected`, () => {
-    it(`should go to the dashboard when user is logged in`, () => {
+describe('behavior', () => {
+  describe('when route is not protected', () => {
+    it('should go to the dashboard when user is logged in', () => {
       // Arrange
       spyOn(auth, 'isLoggedIn').and.returnValue(true);
       spyOn(auth, 'getCurrentUser').and.returnValue({
@@ -50,9 +50,9 @@ describe(`behavior`, () => {
       expect(next).toHaveBeenCalledWith('/app/dashboard');
     });
   });
-  describe(`when route is protected`, () => {
-    describe(`when user not logged in`, () => {
-      it(`should redirect to login`, () => {
+  describe('when route is protected', () => {
+    describe('when user not logged in', () => {
+      it('should redirect to login', () => {
         // Arrange
         spyOn(auth, 'isLoggedIn').and.returnValue(false);
         spyOn(auth, 'getCurrentUser').and.returnValue(null);
@@ -67,9 +67,9 @@ describe(`behavior`, () => {
         expect(next).toHaveBeenCalledWith('/app/login');
       });
     });
-    describe(`when user is logged in`, () => {
-      describe(`when route is not accessible to current user`, () => {
-        it(`should redirect to dashboard`, () => {
+    describe('when user is logged in', () => {
+      describe('when route is not accessible to current user', () => {
+        it('should redirect to dashboard', () => {
           // Arrange
           spyOn(auth, 'isLoggedIn').and.returnValue(true);
           spyOn(auth, 'getCurrentUser').and.returnValue({
@@ -87,8 +87,8 @@ describe(`behavior`, () => {
           expect(next).toHaveBeenCalledWith('/app/dashboard');
         });
       });
-      describe(`when route is accessible to current user`, () => {
-        it(`should go there`, () => {
+      describe('when route is accessible to current user', () => {
+        it('should go there', () => {
           // Arrange
           spyOn(auth, 'isLoggedIn').and.returnValue(true);
           spyOn(auth, 'getCurrentUser').and.returnValue({

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="profile--settings--row row">
-      <div class="columns small-3 ">
+      <div class="columns small-3">
         <h4 class="block-title">
           {{ $t('PROFILE_SETTINGS.FORM.AUDIO_NOTIFICATIONS_SECTION.TITLE') }}
         </h4>
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="profile--settings--row row">
-      <div class="columns small-3 ">
+      <div class="columns small-3">
         <h4 class="block-title">
           {{ $t('PROFILE_SETTINGS.FORM.EMAIL_NOTIFICATIONS_SECTION.TITLE') }}
         </h4>
@@ -140,7 +140,7 @@
       v-if="vapidPublicKey && !isBrowserSafari"
       class="profile--settings--row row push-row"
     >
-      <div class="columns small-3 ">
+      <div class="columns small-3">
         <h4 class="block-title">
           {{ $t('PROFILE_SETTINGS.FORM.PUSH_NOTIFICATIONS_SECTION.TITLE') }}
         </h4>

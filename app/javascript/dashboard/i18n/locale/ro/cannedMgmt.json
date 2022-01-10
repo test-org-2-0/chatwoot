@@ -9,11 +9,7 @@
       "404": "Nu există răspunsuri predefinite disponibile în acest cont.",
       "TITLE": "Gestionare Răspunsuri predefinite",
       "DESC": "Răspunsurile predefinite sunt șabloane de răspuns predefinite, care pot fi utilizate pentru a trimite rapid răspunsuri la tichete.",
-      "TABLE_HEADER": [
-        "Cod scurt",
-        "Conținut",
-        "Acțiuni"
-      ]
+      "TABLE_HEADER": ["Cod scurt", "Conținut", "Acțiuni"]
     },
     "ADD": {
       "TITLE": "Adauga Răspunsuri predefinite",

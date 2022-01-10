@@ -9,11 +9,7 @@
       "404": "Não há etiquetas disponíveis nesta conta.",
       "TITLE": "Gerir etiquetas",
       "DESC": "Etiquetas permitem que você agrupe as conversas juntos.",
-      "TABLE_HEADER": [
-        "Nome:",
-        "Descrição",
-        "Cor"
-      ]
+      "TABLE_HEADER": ["Nome:", "Descrição", "Cor"]
     },
     "FORM": {
       "NAME": {

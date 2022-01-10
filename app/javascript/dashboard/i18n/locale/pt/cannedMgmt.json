@@ -9,11 +9,7 @@
       "404": "Não há respostas prontas disponíveis nesta conta.",
       "TITLE": "Gerenciar respostas prontas",
       "DESC": "Respostas prontas são modelos de resposta pré-definidos, que podem ser usadas para enviar respostas rapidamente a tickets.",
-      "TABLE_HEADER": [
-        "Código curto",
-        "Conteúdo",
-        "Ações."
-      ]
+      "TABLE_HEADER": ["Código curto", "Conteúdo", "Ações."]
     },
     "ADD": {
       "TITLE": "Adicionar resposta pronta",

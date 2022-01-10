@@ -9,11 +9,7 @@
       "404": "Tällä tilillä ei ole tallennettuja vastauksia.",
       "TITLE": "Hallitse tallennettuja vastauksia",
       "DESC": "Tallennetut vastaukset ovat ennalta valmisteltuja vastausmalleja, joita voidaan käyttää nopeasti lähettää vastaukset tukipyyntöihin.",
-      "TABLE_HEADER": [
-        "Oikotie",
-        "Sisältö",
-        "Toiminnot"
-      ]
+      "TABLE_HEADER": ["Oikotie", "Sisältö", "Toiminnot"]
     },
     "ADD": {
       "TITLE": "Lisää tallennettu vastaus",

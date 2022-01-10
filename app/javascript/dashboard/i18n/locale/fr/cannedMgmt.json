@@ -9,11 +9,7 @@
       "404": "Il n'y a aucune réponse standardisée disponible dans ce compte.",
       "TITLE": "Gérer les réponses standardisées",
       "DESC": "Les réponses standardisées sont des modèles de réponse prédéfinis qui peuvent être utilisés pour envoyer rapidement des réponses aux tickets.",
-      "TABLE_HEADER": [
-        "Raccourcis",
-        "Contenu",
-        "Actions"
-      ]
+      "TABLE_HEADER": ["Raccourcis", "Contenu", "Actions"]
     },
     "ADD": {
       "TITLE": "Ajouter une réponse standardisée",

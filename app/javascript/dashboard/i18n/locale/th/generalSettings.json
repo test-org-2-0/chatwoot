@@ -58,12 +58,7 @@
     "LIST": {
       "LOADING_MESSAGE": "Loading notifications...",
       "404": "No Notifications",
-      "TABLE_HEADER": [
-        "ชื่อ",
-        "หมายเลขโทรศัพท์",
-        "การสนทนา",
-        "Last Contacted"
-      ]
+      "TABLE_HEADER": ["ชื่อ", "หมายเลขโทรศัพท์", "การสนทนา", "Last Contacted"]
     },
     "TYPE_LABEL": {
       "conversation_creation": "สร้างการสนทนาใหม่",

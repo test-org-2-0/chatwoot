@@ -37,7 +37,11 @@
     }
 
     &::before {
-      background-image: linear-gradient(-180deg, transparent 3%, $color-heading 130%);
+      background-image: linear-gradient(
+        -180deg,
+        transparent 3%,
+        $color-heading 130%
+      );
       bottom: 0;
       content: '';
       height: 20%;
@@ -119,7 +123,7 @@
   position: relative;
 }
 
-.conversation-panel>li {
+.conversation-panel > li {
   @include flex;
   @include flex-shrink;
   @include margin($zero $zero $space-micro);
@@ -134,11 +138,11 @@
   }
 
   &.unread--toast {
-    +.right {
+    + .right {
       margin-bottom: 0;
     }
 
-    +.left {
+    + .left {
       margin-bottom: 0;
     }
 
@@ -165,9 +169,7 @@
     }
   }
 
-
   &.left {
-
     .bubble {
       @include border-normal;
       background: $white;
@@ -198,10 +200,9 @@
           color: $color-primary-dark;
         }
       }
-
     }
 
-    +.right {
+    + .right {
       margin-top: $space-one;
 
       .bubble {
@@ -209,8 +210,8 @@
       }
     }
 
-    +.unread--toast {
-      +.right {
+    + .unread--toast {
+      + .right {
         margin-top: $space-one;
 
         .bubble {
@@ -218,7 +219,7 @@
         }
       }
 
-      +.left {
+      + .left {
         margin-top: 0;
       }
     }
@@ -258,7 +259,7 @@
       }
     }
 
-    +.left {
+    + .left {
       margin-top: $space-one;
 
       .bubble {
@@ -266,8 +267,8 @@
       }
     }
 
-    +.unread--toast {
-      +.left {
+    + .unread--toast {
+      + .left {
         margin-top: $space-one;
 
         .bubble {
@@ -275,11 +276,10 @@
         }
       }
 
-      +.right {
+      + .right {
         margin-top: 0;
       }
     }
-
   }
 
   &.center {
@@ -314,7 +314,8 @@
     font-size: var(--font-size-small);
     justify-content: center;
     margin: var(--space-smaller) 0;
-    padding: var(--space-smaller) var(--space-micro) var(--space-smaller) var(--space-one);
+    padding: var(--space-smaller) var(--space-micro) var(--space-smaller)
+      var(--space-one);
 
     .is-text {
       display: inline-flex;
@@ -365,7 +366,6 @@
 }
 
 .left .bubble .text-content {
-
   h1,
   h2,
   h3,
@@ -394,7 +394,6 @@
 }
 
 .right .bubble .text-content {
-
   h1,
   h2,
   h3,

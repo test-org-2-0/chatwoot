@@ -7,7 +7,6 @@
     "terminal.integrated.shell.linux": "/bin/zsh"
   },
 
-
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "rebornix.Ruby",
@@ -18,7 +17,6 @@
     "github.copilot",
     "mrmlnc.vscode-duplicate"
   ],
-
 
   // 5432 postgres
   // 6379 redis
@@ -35,5 +33,5 @@
     "8025": {
       "label": "Mailhog UI"
     }
-  },
+  }
 }

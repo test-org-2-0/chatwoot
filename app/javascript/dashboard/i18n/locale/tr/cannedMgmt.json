@@ -9,11 +9,7 @@
       "404": "Bu hesapta hazır yanıt yok.",
       "TITLE": "Hazır yanıtları yönetin",
       "DESC": "Hazır Yanıtlar, çağrılara hızlı bir şekilde yanıt göndermek için kullanılabilen önceden tanımlanmış yanıt şablonlarıdır.",
-      "TABLE_HEADER": [
-        "Kısa kod",
-        "İçerik",
-        "Hareketler"
-      ]
+      "TABLE_HEADER": ["Kısa kod", "İçerik", "Hareketler"]
     },
     "ADD": {
       "TITLE": "Hazır Yanıt Ekle",

@@ -9,11 +9,7 @@
       "404": "There are no canned responses available in this account.",
       "TITLE": "Manage canned responses",
       "DESC": "Canned Responses are predefined reply templates which can be used to quickly send out replies to tickets.",
-      "TABLE_HEADER": [
-        "Short Code",
-        "Content",
-        "Actions"
-      ]
+      "TABLE_HEADER": ["Short Code", "Content", "Actions"]
     },
     "ADD": {
       "TITLE": "Add Canned Response",

@@ -10,7 +10,7 @@
           <woot-button
             variant="clear"
             size="small"
-            class=" change-accounts--button"
+            class="change-accounts--button"
             @click="$emit('toggle-accounts')"
           >
             {{ $t('SIDEBAR_ITEMS.CHANGE_ACCOUNTS') }}
@@ -20,7 +20,7 @@
           <woot-button
             variant="clear"
             size="small"
-            class=" change-accounts--button"
+            class="change-accounts--button"
             @click="$emit('show-support-chat-window')"
           >
             Contact Support
@@ -30,7 +30,7 @@
           <woot-button
             variant="clear"
             size="small"
-            class=" change-accounts--button"
+            class="change-accounts--button"
             @click="$emit('key-shortcut-modal')"
           >
             {{ $t('SIDEBAR_ITEMS.KEYBOARD_SHORTCUTS') }}
@@ -48,7 +48,7 @@
           <woot-button
             variant="clear"
             size="small"
-            class=" change-accounts--button"
+            class="change-accounts--button"
             @click="logout"
           >
             {{ $t('SIDEBAR_ITEMS.LOGOUT') }}

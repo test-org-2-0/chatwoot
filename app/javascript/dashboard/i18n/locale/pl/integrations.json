@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Brak skonfigurowanych webhooków dla tego konta.",
         "TITLE": "Zarządzaj webhookami",
-        "TABLE_HEADER": [
-          "Punkt końcowy Webhooka",
-          "Akcje"
-        ]
+        "TABLE_HEADER": ["Punkt końcowy Webhooka", "Akcje"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Edytuj",

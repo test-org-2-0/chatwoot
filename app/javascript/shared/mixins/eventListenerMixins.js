@@ -11,9 +11,8 @@ export default {
     onKeyDownHandler(e) {
       const isEventFromAnInputBox =
         e.target?.tagName === 'INPUT' || e.target?.tagName === 'TEXTAREA';
-      const isEventFromProseMirror = e.target?.className?.includes(
-        'ProseMirror'
-      );
+      const isEventFromProseMirror =
+        e.target?.className?.includes('ProseMirror');
 
       if (isEventFromAnInputBox || isEventFromProseMirror) {
         if (isEscape(e)) {

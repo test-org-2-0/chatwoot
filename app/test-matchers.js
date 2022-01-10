@@ -192,7 +192,7 @@ beforeAll(() => {
       return runAssertions(this, () => {
         assert(
           typeof actual.render === 'function',
-          `actual does not have a render function -- are you sure it's a Vue component?`
+          "actual does not have a render function -- are you sure it's a Vue component?"
         );
         assert(
           actual.name === withName,

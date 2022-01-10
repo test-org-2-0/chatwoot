@@ -58,12 +58,7 @@
     "LIST": {
       "LOADING_MESSAGE": "Loading notifications...",
       "404": "No Notifications",
-      "TABLE_HEADER": [
-        "名前",
-        "電話番号",
-        "会話データ",
-        "Last Contacted"
-      ]
+      "TABLE_HEADER": ["名前", "電話番号", "会話データ", "Last Contacted"]
     },
     "TYPE_LABEL": {
       "conversation_creation": "New conversation",

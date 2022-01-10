@@ -31,7 +31,7 @@ describe('#actions', () => {
 
   describe('#connectSlack:', () => {
     it('sends correct actions if API is success', async () => {
-      let data = { id: 'slack', enabled: true };
+      const data = { id: 'slack', enabled: true };
       axios.post.mockResolvedValue({ data: data });
       await actions.connectSlack({ commit });
       expect(commit.mock.calls).toEqual([
@@ -52,7 +52,7 @@ describe('#actions', () => {
 
   describe('#deleteIntegration:', () => {
     it('sends correct actions if API is success', async () => {
-      let data = { id: 'slack', enabled: false };
+      const data = { id: 'slack', enabled: false };
       axios.delete.mockResolvedValue({ data: data });
       await actions.deleteIntegration({ commit }, data.id);
       expect(commit.mock.calls).toEqual([
@@ -73,7 +73,7 @@ describe('#actions', () => {
 
   describe('#createHooks', () => {
     it('sends correct actions if API is success', async () => {
-      let data = { id: 'slack', enabled: false };
+      const data = { id: 'slack', enabled: false };
       axios.post.mockResolvedValue({ data: data });
       await actions.createHook({ commit }, data);
       expect(commit.mock.calls).toEqual([
@@ -94,7 +94,7 @@ describe('#actions', () => {
 
   describe('#deleteHook', () => {
     it('sends correct actions if API is success', async () => {
-      let data = { appId: 'dialogflow', hookId: 2 };
+      const data = { appId: 'dialogflow', hookId: 2 };
       axios.delete.mockResolvedValue({ data });
       await actions.deleteHook({ commit }, data);
       expect(commit.mock.calls).toEqual([

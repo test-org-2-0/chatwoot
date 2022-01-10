@@ -45,8 +45,8 @@
       <p
         v-if="
           conversationList.length &&
-            hasCurrentPageEndReached &&
-            !chatListLoading
+          hasCurrentPageEndReached &&
+          !chatListLoading
         "
         class="text-center text-muted end-of-list-text"
       >
@@ -218,10 +218,8 @@ export default {
     },
     handleKeyEvents(e) {
       if (hasPressedAltAndJKey(e)) {
-        const {
-          allConversations,
-          activeConversationIndex,
-        } = this.getKeyboardListenerParams();
+        const { allConversations, activeConversationIndex } =
+          this.getKeyboardListenerParams();
         if (activeConversationIndex === -1) {
           allConversations[0].click();
         }

@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Disponibilidade",
-        "STATUSES_LIST": [
-          "Disponível",
-          "Ocupado",
-          "Desconectado"
-        ]
+        "STATUSES_LIST": ["Disponível", "Ocupado", "Desconectado"]
       },
       "EMAIL": {
         "LABEL": "Seu e-mail",

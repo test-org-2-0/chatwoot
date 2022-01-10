@@ -116,7 +116,10 @@ export default {
     },
     downloadAgentReports() {
       const { from, to } = this;
-      const fileName = `agent-report-${format(fromUnixTime(to), 'dd-MM-yyyy')}.csv`;
+      const fileName = `agent-report-${format(
+        fromUnixTime(to),
+        'dd-MM-yyyy'
+      )}.csv`;
       this.$store.dispatch('downloadAgentReports', { from, to, fileName });
     },
     changeSelection(index) {

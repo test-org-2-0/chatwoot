@@ -1,5 +1,4 @@
 @keyframes left-shift-animation {
-
   0%,
   100% {
     transform: translateX(0);
@@ -21,7 +20,7 @@
   position: relative;
 
   &.active {
-    animation: left-shift-animation .25s $swift-ease-out-function;
+    animation: left-shift-animation 0.25s $swift-ease-out-function;
     background: $color-background;
     border-bottom-color: $color-border-light;
     border-left-color: $color-woot;
@@ -31,7 +30,7 @@
       border-top-color: transparent;
     }
 
-    +.conversation .conversation--details {
+    + .conversation .conversation--details {
       border-top-color: transparent;
     }
   }
@@ -47,7 +46,6 @@
       border-bottom-color: $color-border-light;
     }
   }
-
 
   .conversation--details {
     @include margin(0 0 0 $space-one);

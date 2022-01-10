@@ -18,7 +18,7 @@ class ContactAPI extends ApiClient {
   }
 
   get(page, sortAttr = 'name', label = '') {
-    let requestURL = `${this.url}?${buildContactParams(
+    const requestURL = `${this.url}?${buildContactParams(
       page,
       sortAttr,
       label,
@@ -44,7 +44,7 @@ class ContactAPI extends ApiClient {
   }
 
   search(search = '', page = 1, sortAttr = 'name', label = '') {
-    let requestURL = `${this.url}/search?${buildContactParams(
+    const requestURL = `${this.url}/search?${buildContactParams(
       page,
       sortAttr,
       label,

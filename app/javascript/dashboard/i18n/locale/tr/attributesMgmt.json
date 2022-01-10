@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "İsim",
-        "Açıklama",
-        "Tip",
-        "Anahtar"
-      ],
+      "TABLE_HEADER": ["İsim", "Açıklama", "Tip", "Anahtar"],
       "BUTTONS": {
         "EDIT": "Düzenle",
         "DELETE": "Sil"

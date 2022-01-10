@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Für dieses Konto sind keine Webhooks konfiguriert.",
         "TITLE": "Webhooks verwalten",
-        "TABLE_HEADER": [
-          "Webhook-Endpunkt",
-          "Aktionen"
-        ]
+        "TABLE_HEADER": ["Webhook-Endpunkt", "Aktionen"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Bearbeiten",

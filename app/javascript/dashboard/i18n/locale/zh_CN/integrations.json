@@ -12,10 +12,7 @@
       "LIST": {
         "404": "此帐户没有配置Webhooks。",
         "TITLE": "管理 webhooks",
-        "TABLE_HEADER": [
-          "Webhook 端点",
-          "操作"
-        ]
+        "TABLE_HEADER": ["Webhook 端点", "操作"]
       },
       "EDIT": {
         "BUTTON_TEXT": "编辑",

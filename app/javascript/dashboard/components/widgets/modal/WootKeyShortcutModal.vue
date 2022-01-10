@@ -29,9 +29,7 @@
                 <span class="shortcut-key">
                   {{ $t('KEYBOARD_SHORTCUTS.KEYS.ALT_OR_OPTION_KEY') }}
                 </span>
-                <span class="shortcut-key">
-                  J
-                </span>
+                <span class="shortcut-key"> J </span>
                 <span class="forward-slash sub-block-title">
                   {{ $t('KEYBOARD_SHORTCUTS.KEYS.FORWARD_SLASH_KEY') }}
                 </span>
@@ -39,9 +37,7 @@
               <span class="shortcut-key">
                 {{ $t('KEYBOARD_SHORTCUTS.KEYS.ALT_OR_OPTION_KEY') }}
               </span>
-              <span class="shortcut-key key">
-                K
-              </span>
+              <span class="shortcut-key key"> K </span>
             </div>
           </div>
 
@@ -56,9 +52,7 @@
               <span class="shortcut-key">
                 {{ $t('KEYBOARD_SHORTCUTS.KEYS.ALT_OR_OPTION_KEY') }}
               </span>
-              <span class="shortcut-key key">
-                E
-              </span>
+              <span class="shortcut-key key"> E </span>
             </div>
           </div>
           <div

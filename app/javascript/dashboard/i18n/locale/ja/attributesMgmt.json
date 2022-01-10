@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "名前",
-        "説明",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["名前", "説明", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "編集",
         "DELETE": "削除"

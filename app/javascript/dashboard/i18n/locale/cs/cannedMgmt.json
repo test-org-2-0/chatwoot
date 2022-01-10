@@ -9,11 +9,7 @@
       "404": "V tomto účtu nejsou k dispozici žádné konzervované odpovědi.",
       "TITLE": "Spravovat konzervované odpovědi",
       "DESC": "Konzervované odpovědi jsou předdefinované šablony odpovědí, které lze použít k rychlému zasílání odpovědí na tikety.",
-      "TABLE_HEADER": [
-        "Krátký kód",
-        "Obsah",
-        "Akce"
-      ]
+      "TABLE_HEADER": ["Krátký kód", "Obsah", "Akce"]
     },
     "ADD": {
       "TITLE": "Přidat konzervovanou odpověď",

@@ -9,11 +9,7 @@
       "404": "Não há atalhos disponíveis nesta conta.",
       "TITLE": "Gerenciar Atalhos",
       "DESC": "Atalhos são modelos de resposta que podem ser usados ​​para enviar rapidamente respostas à conversa.",
-      "TABLE_HEADER": [
-        "Código curto",
-        "Conteúdo",
-        "Ações"
-      ]
+      "TABLE_HEADER": ["Código curto", "Conteúdo", "Ações"]
     },
     "ADD": {
       "TITLE": "Adicionar Atalho",

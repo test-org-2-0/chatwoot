@@ -9,11 +9,7 @@
       "404": "Non ci sono etichette disponibili in questo account.",
       "TITLE": "Gestisci etichette",
       "DESC": "Le etichette consentono di raggruppare le conversazioni insieme.",
-      "TABLE_HEADER": [
-        "nome",
-        "Descrizione",
-        "Colore"
-      ]
+      "TABLE_HEADER": ["nome", "Descrizione", "Colore"]
     },
     "FORM": {
       "NAME": {

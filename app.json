@@ -4,13 +4,7 @@
   "website": "https://www.chatwoot.com/",
   "repository": "https://github.com/chatwoot/chatwoot",
   "logo": "https://app.chatwoot.com/brand-assets/logo_thumbnail.svg",
-  "keywords": [
-    "live chat",
-    "customer support",
-    "ruby",
-    "rails",
-    "vue"
-  ],
+  "keywords": ["live chat", "customer support", "ruby", "rails", "vue"],
   "success_url": "/",
   "env": {
     "SECRET_TOKEN": {
@@ -45,7 +39,7 @@
     }
   },
   "image": "heroku/ruby",
-  "addons": [ "heroku-redis", "heroku-postgresql"],
+  "addons": ["heroku-redis", "heroku-postgresql"],
   "buildpacks": [
     {
       "url": "heroku/ruby"

@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Det finns inga webhooks konfigurerade för det här kontot.",
         "TITLE": "Hantera webhooks",
-        "TABLE_HEADER": [
-          "Webhook slutpunkt",
-          "Åtgärder"
-        ]
+        "TABLE_HEADER": ["Webhook slutpunkt", "Åtgärder"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Redigera",

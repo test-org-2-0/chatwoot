@@ -58,12 +58,7 @@
     "LIST": {
       "LOADING_MESSAGE": "Benachrichtigungen werden geladen...",
       "404": "Keine Benachrichtigungen",
-      "TABLE_HEADER": [
-        "Name",
-        "Telefonnummer",
-        "Gespräche",
-        "Letzter Kontakt"
-      ]
+      "TABLE_HEADER": ["Name", "Telefonnummer", "Gespräche", "Letzter Kontakt"]
     },
     "TYPE_LABEL": {
       "conversation_creation": "Neue Unterhaltung",

@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 export default {
   props: {
     message: String,
@@ -22,9 +21,7 @@ export default {
       toggleAfterTimeout: false,
     };
   },
-  methods: {
-  },
-  mounted() {
-  },
+  methods: {},
+  mounted() {},
 };
 </script>

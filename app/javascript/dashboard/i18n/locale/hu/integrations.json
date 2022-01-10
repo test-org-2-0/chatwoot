@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Nincs a fiókhoz rendelt Webhook.",
         "TITLE": "Webhook kezelés",
-        "TABLE_HEADER": [
-          "Webhook végpont",
-          "Műveletek"
-        ]
+        "TABLE_HEADER": ["Webhook végpont", "Műveletek"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Szerkesztés",

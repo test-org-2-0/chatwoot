@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Tillgänglighet",
-        "STATUSES_LIST": [
-          "Online",
-          "Upptagen",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Upptagen", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Din e-postadress",
