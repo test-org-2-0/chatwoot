@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Naam",
-        "Beschrijving",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Naam", "Beschrijving", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Bewerken",
         "DELETE": "Verwijderen"

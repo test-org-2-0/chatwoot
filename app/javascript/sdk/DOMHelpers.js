@@ -15,7 +15,7 @@ export const wootOn = (elm, event, fn) => {
     // <= IE 8 loses scope so need to apply, we add this to object so we
     // can detach later (can't detach anonymous functions)
     // eslint-disable-next-line
-    elm[event + fn] = function() {
+    elm[event + fn] = function () {
       // eslint-disable-next-line
       return fn.apply(elm, arguments);
     };

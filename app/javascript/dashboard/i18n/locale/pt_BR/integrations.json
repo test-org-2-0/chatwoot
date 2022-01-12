@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Não há webhooks configurados para esta conta.",
         "TITLE": "Gerenciar webhooks",
-        "TABLE_HEADER": [
-          "Webhook URL (endpoint)",
-          "Ações"
-        ]
+        "TABLE_HEADER": ["Webhook URL (endpoint)", "Ações"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Alterar",

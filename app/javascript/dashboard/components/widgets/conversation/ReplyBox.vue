@@ -151,9 +151,8 @@ export default {
       }
 
       if (this.isRichEditorEnabled) {
-        const {
-          display_rich_content_editor: displayRichContentEditor,
-        } = this.uiSettings;
+        const { display_rich_content_editor: displayRichContentEditor } =
+          this.uiSettings;
 
         return displayRichContentEditor;
       }

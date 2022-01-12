@@ -8,7 +8,7 @@ describe('#calculateScrollTop', () => {
       }
     }
     let count = 3;
-    let relevantMessages = [];
+    const relevantMessages = [];
     while (count > 0) {
       relevantMessages.push(new DOMElement(100));
       count -= 1;

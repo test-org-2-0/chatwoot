@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Nombre",
-        "Descripción",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Nombre", "Descripción", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Editar",
         "DELETE": "Eliminar"

@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "זמינות",
-        "STATUSES_LIST": [
-          "מחובר",
-          "עסוק",
-          "לא מחובר"
-        ]
+        "STATUSES_LIST": ["מחובר", "עסוק", "לא מחובר"]
       },
       "EMAIL": {
         "LABEL": "Your email address",

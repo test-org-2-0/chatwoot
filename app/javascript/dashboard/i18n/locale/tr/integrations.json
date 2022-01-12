@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Bu hesap için yapılandırılmış web kancası yok.",
         "TITLE": "Web kancalarını yönet",
-        "TABLE_HEADER": [
-          "Web kancası uç noktası",
-          "Hareketler"
-        ]
+        "TABLE_HEADER": ["Web kancası uç noktası", "Hareketler"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Düzenle",

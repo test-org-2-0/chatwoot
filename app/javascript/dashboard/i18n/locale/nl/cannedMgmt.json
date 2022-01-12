@@ -9,11 +9,7 @@
       "404": "Er zijn geen standaard antwoorden beschikbaar in dit account.",
       "TITLE": "Beheer standaard antwoorden",
       "DESC": "Standaard antwoorden zijn vooraf gedefinieerde antwoordsjablonen die kunnen worden gebruikt om snel antwoorden naar tickets te sturen.",
-      "TABLE_HEADER": [
-        "Korte code",
-        "Inhoud",
-        "Acties"
-      ]
+      "TABLE_HEADER": ["Korte code", "Inhoud", "Acties"]
     },
     "ADD": {
       "TITLE": "Standaard antwoord toevoegen",

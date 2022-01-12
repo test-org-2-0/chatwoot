@@ -8,7 +8,7 @@ export const calculateScrollTop = (
   relevantMessages
 ) => {
   // add up scrollHeight of a `relevantMessages`
-  let combinedMessageScrollHeight = [...relevantMessages].reduce(
+  const combinedMessageScrollHeight = [...relevantMessages].reduce(
     totalMessageHeight,
     0
   );

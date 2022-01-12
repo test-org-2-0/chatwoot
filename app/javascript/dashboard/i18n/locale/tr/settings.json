@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Uygun",
-        "STATUSES_LIST": [
-          "Çevirimiçi",
-          "Meşgul",
-          "Çevirimdışı"
-        ]
+        "STATUSES_LIST": ["Çevirimiçi", "Meşgul", "Çevirimdışı"]
       },
       "EMAIL": {
         "LABEL": "Sizin E-posta Adresiniz",

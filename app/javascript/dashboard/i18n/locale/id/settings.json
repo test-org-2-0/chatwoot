@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Ketersediaan",
-        "STATUSES_LIST": [
-          "Online",
-          "Sibuk",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Sibuk", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Alamat email Anda",

@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Namn",
-        "Beskrivning",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Namn", "Beskrivning", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Redigera",
         "DELETE": "Radera"

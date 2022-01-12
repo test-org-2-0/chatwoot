@@ -2,11 +2,11 @@ import { API } from 'widget/helpers/axios';
 import { actions } from '../../campaign';
 import { campaigns } from './data';
 
+import campaignTimer from 'widget/helpers/campaignTimer';
+
 const commit = jest.fn();
 const dispatch = jest.fn();
 jest.mock('widget/helpers/axios');
-
-import campaignTimer from 'widget/helpers/campaignTimer';
 jest.mock('widget/helpers/campaignTimer');
 
 describe('#actions', () => {

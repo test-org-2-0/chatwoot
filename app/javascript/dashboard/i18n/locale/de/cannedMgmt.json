@@ -9,11 +9,7 @@
       "404": "In diesem Konto sind keine gespeicherten Antworten verfügbar.",
       "TITLE": "Verwalten Sie vordefinierte Antworten",
       "DESC": "Vorgefertigte Antworten sind vordefinierte Antwortvorlagen, mit denen schnell Antworten auf Tickets gesendet werden können.",
-      "TABLE_HEADER": [
-        "Funktionscode",
-        "Inhalt",
-        "Aktionen"
-      ]
+      "TABLE_HEADER": ["Funktionscode", "Inhalt", "Aktionen"]
     },
     "ADD": {
       "TITLE": "Vorgefertigte Antwort hinzufügen",

@@ -9,11 +9,7 @@
       "404": "Brak gotowych odpowiedzi dostępnych na tym koncie.",
       "TITLE": "Zarządzaj gotowymi odpowiedziami",
       "DESC": "Gotowe odpowiedzi to predefiniowane szablony odpowiedzi, które mogą być użyte do szybkiego wysyłania odpowiedzi na zgłoszenia.",
-      "TABLE_HEADER": [
-        "Krótki kod",
-        "Zawartość",
-        "Akcje"
-      ]
+      "TABLE_HEADER": ["Krótki kod", "Zawartość", "Akcje"]
     },
     "ADD": {
       "TITLE": "Dodaj Gotową odpowiedź",

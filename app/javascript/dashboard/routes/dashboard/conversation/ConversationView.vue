@@ -61,9 +61,8 @@ export default {
     }),
     isContactPanelOpen() {
       if (this.currentChat.id) {
-        const {
-          is_contact_sidebar_open: isContactSidebarOpen,
-        } = this.uiSettings;
+        const { is_contact_sidebar_open: isContactSidebarOpen } =
+          this.uiSettings;
         return isContactSidebarOpen;
       }
       return false;

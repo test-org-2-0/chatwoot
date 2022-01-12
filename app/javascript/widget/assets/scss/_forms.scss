@@ -22,10 +22,7 @@ $input-height: $space-two * 2;
   outline: none;
   padding: $space-smaller;
   position: relative;
-  transition: background .2s,
-  border .2s,
-  box-shadow .2s,
-  color .2s;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s;
   width: 100%;
 
   &:focus {
@@ -62,7 +59,7 @@ $input-height: $space-two * 2;
   }
 
   // Input types
-  &[type="file"] {
+  &[type='file'] {
     height: auto;
   }
 }

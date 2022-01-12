@@ -40,11 +40,11 @@ export default {
       return this.channelType === INBOX_TYPES.TELEGRAM;
     },
     isATwilioSMSChannel() {
-      const { medium: medium = '' } = this.inbox;
+      const { medium = '' } = this.inbox;
       return this.isATwilioChannel && medium === 'sms';
     },
     isATwilioWhatsappChannel() {
-      const { medium: medium = '' } = this.inbox;
+      const { medium = '' } = this.inbox;
       return this.isATwilioChannel && medium === 'whatsapp';
     },
     chatAdditionalAttributes() {

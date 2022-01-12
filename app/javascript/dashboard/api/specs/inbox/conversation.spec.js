@@ -66,7 +66,7 @@ describe('#ConversationAPI', () => {
     it('#toggleStatus', () => {
       conversationAPI.toggleStatus({ conversationId: 12, status: 'online' });
       expect(context.axiosMock.post).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/toggle_status`,
+        '/api/v1/conversations/12/toggle_status',
         {
           status: 'online',
           snoozed_until: null,
@@ -77,7 +77,7 @@ describe('#ConversationAPI', () => {
     it('#assignAgent', () => {
       conversationAPI.assignAgent({ conversationId: 12, agentId: 34 });
       expect(context.axiosMock.post).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/assignments?assignee_id=34`,
+        '/api/v1/conversations/12/assignments?assignee_id=34',
         {}
       );
     });
@@ -85,7 +85,7 @@ describe('#ConversationAPI', () => {
     it('#assignTeam', () => {
       conversationAPI.assignTeam({ conversationId: 12, teamId: 1 });
       expect(context.axiosMock.post).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/assignments`,
+        '/api/v1/conversations/12/assignments',
         {
           team_id: 1,
         }
@@ -95,7 +95,7 @@ describe('#ConversationAPI', () => {
     it('#markMessageRead', () => {
       conversationAPI.markMessageRead({ id: 12 });
       expect(context.axiosMock.post).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/update_last_seen`
+        '/api/v1/conversations/12/update_last_seen'
       );
     });
 
@@ -105,7 +105,7 @@ describe('#ConversationAPI', () => {
         status: 'typing_on',
       });
       expect(context.axiosMock.post).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/toggle_typing_status`,
+        '/api/v1/conversations/12/toggle_typing_status',
         {
           typing_status: 'typing_on',
         }

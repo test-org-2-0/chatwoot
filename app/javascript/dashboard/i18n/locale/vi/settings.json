@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Khả dụng",
-        "STATUSES_LIST": [
-          "Trực Tuyến",
-          "Bận",
-          "Không Trực Tuyến"
-        ]
+        "STATUSES_LIST": ["Trực Tuyến", "Bận", "Không Trực Tuyến"]
       },
       "EMAIL": {
         "LABEL": "Địa chỉ email của bạn",

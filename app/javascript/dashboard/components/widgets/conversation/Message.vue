@@ -167,9 +167,8 @@ export default {
         }
       );
 
-      const {
-        email: { content_type: contentType = '' } = {},
-      } = this.contentAttributes;
+      const { email: { content_type: contentType = '' } = {} } =
+        this.contentAttributes;
       if (this.contentToBeParsed && this.isIncoming) {
         const parsedContent = this.stripStyleCharacters(this.contentToBeParsed);
         if (parsedContent) {
@@ -234,8 +233,8 @@ export default {
       return {
         email: this.contentAttributes.email,
         cc: this.contentAttributes.cc_emails,
-        bcc: this.contentAttributes.bcc_emails
-      }
+        bcc: this.contentAttributes.bcc_emails,
+      };
     },
     hasAttachments() {
       return !!(this.data.attachments && this.data.attachments.length > 0);

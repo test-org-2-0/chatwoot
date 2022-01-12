@@ -11,11 +11,9 @@
         <div class="text-black-900 font-medium text-base flex items-center">
           <span class="mr-1" v-html="title" />
           <div
-            :class="
-              `status-view--badge rounded-full leading-4 ${
-                isOnline ? 'bg-green-500' : 'hidden'
-              }`
-            "
+            :class="`status-view--badge rounded-full leading-4 ${
+              isOnline ? 'bg-green-500' : 'hidden'
+            }`"
           />
         </div>
         <div class="text-xs mt-1 text-black-700">

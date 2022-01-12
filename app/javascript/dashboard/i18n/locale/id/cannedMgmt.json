@@ -9,11 +9,7 @@
       "404": "Tidak ada canned response yang tersedia di akun ini.",
       "TITLE": "Kelola canned response",
       "DESC": "Canned Response adalah template balasan yang telah ditentukan sebelumnya yang dapat digunakan untuk mengirimkan balasan dengan cepat ke tiket.",
-      "TABLE_HEADER": [
-        "Short Code",
-        "Konten",
-        "Aksi"
-      ]
+      "TABLE_HEADER": ["Short Code", "Konten", "Aksi"]
     },
     "ADD": {
       "TITLE": "Tambahkan Canned Response",

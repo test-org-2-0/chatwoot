@@ -20,7 +20,7 @@ describe('#ConversationAPI', () => {
         before: 4573,
       });
       expect(context.axiosMock.get).toHaveBeenCalledWith(
-        `/api/v1/conversations/12/messages`,
+        '/api/v1/conversations/12/messages',
         {
           params: {
             before: 4573,

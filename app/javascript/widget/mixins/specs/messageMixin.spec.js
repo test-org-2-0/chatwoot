@@ -3,7 +3,7 @@ import messageMixin from '../messageMixin';
 import messages from './messageFixture';
 
 describe('messageMixin', () => {
-  let Component = {
+  const Component = {
     render() {},
     title: 'TestComponent',
     mixins: [messageMixin],

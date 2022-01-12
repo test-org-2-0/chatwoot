@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Disponibilitate",
-        "STATUSES_LIST": [
-          "Online",
-          "Ocupat",
-          "Deconectat"
-        ]
+        "STATUSES_LIST": ["Online", "Ocupat", "Deconectat"]
       },
       "EMAIL": {
         "LABEL": "Adresa ta de email",

@@ -26,7 +26,7 @@ addDecorator(() => ({
   template: '<story/>',
   i18n: i18nConfig,
   store,
-  beforeCreate: function() {
+  beforeCreate: function () {
     this.$root._i18n = this.$i18n;
   },
 }));

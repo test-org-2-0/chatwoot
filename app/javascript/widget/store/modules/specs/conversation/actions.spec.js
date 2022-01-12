@@ -16,7 +16,7 @@ describe('#actions', () => {
           messages: [{ id: 1, content: 'This is a test message' }],
         },
       });
-      let windowSpy = jest.spyOn(window, 'window', 'get');
+      const windowSpy = jest.spyOn(window, 'window', 'get');
       windowSpy.mockImplementation(() => ({
         WOOT_WIDGET: {
           $root: {

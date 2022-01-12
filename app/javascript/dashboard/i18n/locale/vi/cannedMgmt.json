@@ -9,11 +9,7 @@
       "404": "Không có câu trả lời soạn trước nào có sẵn trong tài khoản này.",
       "TITLE": "Quản lý thư mẫu phẩn hồi",
       "DESC": "Thư mẫu phẩn hồi là các mẫu trả lời được xác định trước có thể được sử dụng để nhanh chóng gửi trả lời cho vé.",
-      "TABLE_HEADER": [
-        "Short Code",
-        "Nội dung",
-        "Hành động"
-      ]
+      "TABLE_HEADER": ["Short Code", "Nội dung", "Hành động"]
     },
     "ADD": {
       "TITLE": "Thêm thư mẫu phẩn hồi",

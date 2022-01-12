@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Pro tento účet nejsou nakonfigurovány žádné webové háčky.",
         "TITLE": "Spravovat webové háčky",
-        "TABLE_HEADER": [
-          "Koncový bod webhooku",
-          "Akce"
-        ]
+        "TABLE_HEADER": ["Koncový bod webhooku", "Akce"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Upravit",

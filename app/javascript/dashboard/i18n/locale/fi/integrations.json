@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Tälle tilille ei ole määritetty webhookeja.",
         "TITLE": "Hallitse webhookeja",
-        "TABLE_HEADER": [
-          "Webhookin päätepiste",
-          "Toiminnot"
-        ]
+        "TABLE_HEADER": ["Webhookin päätepiste", "Toiminnot"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Muokkaa",

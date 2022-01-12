@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Availability",
-        "STATUSES_LIST": [
-          "Online",
-          "Zajęty",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Zajęty", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Twój adres e-mail",

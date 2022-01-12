@@ -29,7 +29,6 @@
   }
 }
 
-
 .page-top-bar {
   @include padding($space-large $space-large $zero);
 
@@ -48,12 +47,10 @@
   position: relative;
   width: 60rem;
 
-
   .content-box {
     @include padding($zero);
     height: auto;
   }
-
 
   h2 {
     color: $color-heading;
@@ -97,7 +94,6 @@
       @include margin($zero);
     }
   }
-
 }
 
 .modal-enter,

@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "שם",
-        "Description",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["שם", "Description", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "ערוך",
         "DELETE": "מחק"

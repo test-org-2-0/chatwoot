@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Nu există webhook-uri configurate pentru acest cont.",
         "TITLE": "Gestionează webhook-uri",
-        "TABLE_HEADER": [
-          "Webhook endpoint",
-          "Actiuni"
-        ]
+        "TABLE_HEADER": ["Webhook endpoint", "Actiuni"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Editare",

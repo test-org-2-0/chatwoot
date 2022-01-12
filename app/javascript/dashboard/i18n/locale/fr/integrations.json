@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Il n'y a aucun Webhook configuré pour ce compte.",
         "TITLE": "Gérer les webhooks",
-        "TABLE_HEADER": [
-          "Point de terminaison du Webhook",
-          "Actions"
-        ]
+        "TABLE_HEADER": ["Point de terminaison du Webhook", "Actions"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Modifier",

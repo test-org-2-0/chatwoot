@@ -8,7 +8,7 @@ describe('#getSurvey', () => {
         uuid,
       })
     ).toEqual({
-      url: `/public/api/v1/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1`,
+      url: '/public/api/v1/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1',
     });
   });
 });
@@ -31,7 +31,7 @@ describe('#updateSurvey', () => {
         data,
       })
     ).toEqual({
-      url: `/public/api/v1/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1`,
+      url: '/public/api/v1/csat_survey/98c5d7f3-8873-4262-b101-d56425ff7ee1',
       data,
     });
   });

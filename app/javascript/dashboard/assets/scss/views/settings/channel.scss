@@ -14,7 +14,7 @@
     cursor: pointer;
     flex-direction: column;
     margin: -1px;
-    transition: all 0.200s ease-in;
+    transition: all 0.2s ease-in;
 
     &:last-child {
       @include border-light;
@@ -27,7 +27,7 @@
     }
 
     &.disabled {
-      opacity: .6;
+      opacity: 0.6;
     }
 
     img {

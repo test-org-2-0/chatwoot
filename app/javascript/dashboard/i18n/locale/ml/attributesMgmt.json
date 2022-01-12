@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "പേര്",
-        "വിവരണം",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["പേര്", "വിവരണം", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "എഡിറ്റുചെയ്യുക",
         "DELETE": "ഇല്ലാതാക്കുക"

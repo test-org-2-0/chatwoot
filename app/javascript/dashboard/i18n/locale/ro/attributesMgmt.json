@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Nume",
-        "Descriere",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Nume", "Descriere", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Editare",
         "DELETE": "Şterge"

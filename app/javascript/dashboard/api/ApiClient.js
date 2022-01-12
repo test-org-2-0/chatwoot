@@ -16,9 +16,8 @@ class ApiClient {
   baseUrl() {
     let url = this.apiVersion;
     if (this.options.accountScoped) {
-      const isInsideAccountScopedURLs = window.location.pathname.includes(
-        '/app/accounts'
-      );
+      const isInsideAccountScopedURLs =
+        window.location.pathname.includes('/app/accounts');
 
       if (isInsideAccountScopedURLs) {
         const accountId = window.location.pathname.split('/')[3];

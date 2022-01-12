@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Tilgjengelighet",
-        "STATUSES_LIST": [
-          "Pålogget",
-          "Opptatt",
-          "Frakoblet"
-        ]
+        "STATUSES_LIST": ["Pålogget", "Opptatt", "Frakoblet"]
       },
       "EMAIL": {
         "LABEL": "Din e-postadresse",

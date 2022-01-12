@@ -9,11 +9,7 @@
       "404": "Det er ingen forhåndslagde svar tilgjengelig i denne kontoen.",
       "TITLE": "Administrer forhåndslagde svar",
       "DESC": "Forhåndslagde svar er predefinerte maler som kan brukes for å raskt sende ut svar til henvendelser.",
-      "TABLE_HEADER": [
-        "Kort kode",
-        "Innhold",
-        "Handlinger"
-      ]
+      "TABLE_HEADER": ["Kort kode", "Innhold", "Handlinger"]
     },
     "ADD": {
       "TITLE": "Legg til svar",

@@ -9,11 +9,7 @@
       "404": "Não há marcadores disponíveis nesta conta.",
       "TITLE": "Gerenciar marcadores",
       "DESC": "Marcadores permitem agrupar as conversas.",
-      "TABLE_HEADER": [
-        "Nome",
-        "Descrição",
-        "Cor"
-      ]
+      "TABLE_HEADER": ["Nome", "Descrição", "Cor"]
     },
     "FORM": {
       "NAME": {

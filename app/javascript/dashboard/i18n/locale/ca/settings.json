@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Disponibilitat",
-        "STATUSES_LIST": [
-          "En línia",
-          "Ocupat",
-          "Fora de línia"
-        ]
+        "STATUSES_LIST": ["En línia", "Ocupat", "Fora de línia"]
       },
       "EMAIL": {
         "LABEL": "La teva adreça de correu electrònic",

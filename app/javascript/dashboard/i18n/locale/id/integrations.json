@@ -12,10 +12,7 @@
       "LIST": {
         "404": "Tidak ada webhook yang dikonfigurasi untuk akun ini.",
         "TITLE": "Kelola webhook",
-        "TABLE_HEADER": [
-          "Endpoint webhook",
-          "Aksi"
-        ]
+        "TABLE_HEADER": ["Endpoint webhook", "Aksi"]
       },
       "EDIT": {
         "BUTTON_TEXT": "Edit",

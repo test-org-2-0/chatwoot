@@ -16,11 +16,11 @@
   margin-bottom: var(--space-normal);
 
   &.multiselect--disabled {
-    opacity: .8;
+    opacity: 0.8;
   }
 
   .multiselect--active {
-    >.multiselect__tags {
+    > .multiselect__tags {
       border-color: $color-woot;
     }
   }
@@ -141,7 +141,6 @@
 }
 
 .sidebar-labels-wrap {
-
   &.has-edited,
   &:hover {
     .multiselect {
@@ -150,15 +149,15 @@
   }
 
   .multiselect {
-    >.multiselect__select {
+    > .multiselect__select {
       visibility: hidden;
     }
 
-    >.multiselect__tags {
+    > .multiselect__tags {
       border-color: transparent;
     }
 
-    &.multiselect--active>.multiselect__tags {
+    &.multiselect--active > .multiselect__tags {
       border-color: $color-woot;
     }
   }

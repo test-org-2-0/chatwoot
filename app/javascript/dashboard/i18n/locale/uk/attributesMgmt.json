@@ -66,12 +66,7 @@
       "CONTACT": "Contact"
     },
     "LIST": {
-      "TABLE_HEADER": [
-        "Ім'я",
-        "Description",
-        "Type",
-        "Key"
-      ],
+      "TABLE_HEADER": ["Ім'я", "Description", "Type", "Key"],
       "BUTTONS": {
         "EDIT": "Редагувати",
         "DELETE": "Видалити"

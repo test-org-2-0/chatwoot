@@ -100,8 +100,7 @@ export default {
           label: statusLabel,
           value: AVAILABILITY_STATUS_KEYS[index],
           disabled:
-            this.currentUserAvailability ===
-            AVAILABILITY_STATUS_KEYS[index],
+            this.currentUserAvailability === AVAILABILITY_STATUS_KEYS[index],
         })
       );
     },

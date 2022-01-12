@@ -107,10 +107,8 @@ export default {
       if (!this.conversationAttributes.browser) {
         return '';
       }
-      const {
-        platform_name: platformName,
-        platform_version: platformVersion,
-      } = this.conversationAttributes.browser;
+      const { platform_name: platformName, platform_version: platformVersion } =
+        this.conversationAttributes.browser;
       return `${platformName || ''} ${platformVersion || ''}`;
     },
     ipAddress() {

@@ -69,11 +69,7 @@
       },
       "AVAILABILITY": {
         "LABEL": "Elérhetőség",
-        "STATUSES_LIST": [
-          "Online",
-          "Foglalt",
-          "Offline"
-        ]
+        "STATUSES_LIST": ["Online", "Foglalt", "Offline"]
       },
       "EMAIL": {
         "LABEL": "Az e-mailcímed",
